@@ -1,0 +1,4 @@
+The quick brown fox jumps over the lazy dog.
+This is a sample text file for testing word frequency analysis.
+The program will count how many times each word appears in this text.
+The more text you add, the more interesting the word frequency results will be.
