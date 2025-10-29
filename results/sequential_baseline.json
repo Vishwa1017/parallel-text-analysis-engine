@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "dataset_size": "small",
+      "num_files": 10,
+      "total_tokens": 5000,
+      "unique_words": 10,
+      "word_freq_time": 0.10366415977478027,
+      "tfidf_time": 0.0,
+      "total_time": 0.10366415977478027,
+      "throughput": 48232.677628053425,
+      "avg_tokens_per_file": 500.0
+    },
+    {
+      "dataset_size": "medium",
+      "num_files": 100,
+      "total_tokens": 50000,
+      "unique_words": 10,
+      "word_freq_time": 0.5400867462158203,
+      "tfidf_time": 0.016160011291503906,
+      "total_time": 0.5562467575073242,
+      "throughput": 89888.16442555467,
+      "avg_tokens_per_file": 500.0
+    },
+    {
+      "dataset_size": "large",
+      "num_files": 1000,
+      "total_tokens": 375250,
+      "unique_words": 10,
+      "word_freq_time": 5.8945746421813965,
+      "tfidf_time": 0.11093425750732422,
+      "total_time": 6.005508899688721,
+      "throughput": 62484.29671288141,
+      "avg_tokens_per_file": 375.25
+    }
+  ]
+}

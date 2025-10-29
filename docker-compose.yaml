@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  text-analyzer:
+    build: .
+    volumes:
+      - ./src/datasets:/app/src/datasets
+    container_name: text-analyzer
