@@ -12,7 +12,7 @@ def compute_word_frequencies(documents: list[str]) -> Counter:
     total_counter = Counter()
     for i, doc in enumerate(documents, start=1):
         tokens = clean_and_tokenize(doc)
-        log_info(f"Doc {i}: {len(tokens)} tokens processed")
+        #log_info(f"Doc {i}: {len(tokens)} tokens processed")
         total_counter.update(tokens)
 
     log_success(f"Total unique words found: {len(total_counter)}")
